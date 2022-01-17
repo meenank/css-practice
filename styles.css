@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+#title {
+    text-align: center;
+    background-color: #023e8a;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+.container {
+    text-align: center;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.headings {
+    text-decoration: underline;
+}
+
+hr {
+    color: #023e8a;
+    height: 0.3rem;
+    background-color: #023e8a;
+}
