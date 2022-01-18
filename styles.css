@@ -1,18 +1,21 @@
 body {
     margin: 0;
-    background-color: #023e8a;
+    background-color: #333;
+    color: aliceblue;
+    /* background-color: #023e8a; */
 }
 
 #title {
     text-align: center;
-    background-color: #023e8a;
-    color: aliceblue;
+    /* background-color: #023e8a; */
+    background-color: #333;
+    color: #ffe1a8;
     padding: 1rem;
 }
 
 .container {
     text-align: center;
-    background-color: aqua;
+    background-color: #333;
     justify-content: center;
     padding: 10px 10px;
 }
@@ -27,7 +30,7 @@ body {
 
 .headings {
     text-decoration: underline;
-    color: #023e8a;
+    color: #ffe1a8;
 }
 
 
@@ -75,4 +78,53 @@ body {
 #first-image {
     width: 40rem;
     height: 25rem;
+}
+
+#cont5 {
+    text-align: center;
+}
+
+#margin {
+    color: aliceblue;
+    background-color: #023e8a;
+    /* max-width: 280px; */
+    /* padding: 50px; */
+    border: 3px solid yellow;
+    margin: 50px 200px;
+}
+
+#padding {
+    color: aliceblue;
+    background-color: #023e8a;
+    /* width: 200px; */
+    padding: 40px;
+    border: 3px solid yellow;
+    margin: 50px 200px;
+}
+
+#border {
+    color: aliceblue;
+    background-color: #023e8a;
+    /* width: 200px; */
+    padding: 40px;
+    border: 3px solid yellow;
+    margin: 50px 200px;
+    border: 2rem solid yellow;
+    border-radius: 1rem 3rem 5rem 7rem;
+}
+
+.parent-div {
+    margin: 50px;
+    text-align: center;
+    background-color: #023e8a;
+    border: 3px solid yellow;
+    display: flex;
+}
+
+.children-div {
+    text-align: center;
+    background-color: coral;
+    padding: 3rem;
+    margin: 2rem auto;
+    border: 3px solid yellow;
 }
