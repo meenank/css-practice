@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #023e8a;
 }
 
 #title {
@@ -13,14 +14,65 @@ body {
     text-align: center;
     background-color: aqua;
     justify-content: center;
+    padding: 10px 10px;
+}
+
+#cont3 {
+    text-align: left;
+}
+
+#lol {
+    text-align: center;
 }
 
 .headings {
     text-decoration: underline;
+    color: #023e8a;
 }
 
-hr {
-    color: #023e8a;
-    height: 0.3rem;
-    background-color: #023e8a;
+
+/* hr {
+    /* color: #023e8a; */
+
+
+/* height: 2px; */
+
+
+/* background-color: #023e8a; */
+
+#under {
+    text-decoration: underline;
+}
+
+#crossed {
+    text-decoration: line-through;
+}
+
+#right-text {
+    text-align: right;
+}
+
+#left-text {
+    text-align: left;
+}
+
+#square-list {
+    list-style-type: square;
+}
+
+#circle-list {
+    list-style-type: circle;
+}
+
+#lower-roman {
+    list-style-type: lower-roman;
+}
+
+#roman {
+    list-style-type: upper-roman;
+}
+
+#first-image {
+    width: 40rem;
+    height: 25rem;
 }
